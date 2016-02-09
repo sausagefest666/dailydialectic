@@ -3,8 +3,8 @@ title: Real Patterns, Real Dynamics, Real Patterns...
 author: Alexandra Varlakov
 affiliation: University of Queensland
 layout: bite
-status: proposal
-date: 19 Nov 2014
+status: published
+date: 8 Nov 2014
 ---
 
 The moon is a real pattern: we can make real predictions of its behaviour. My glasses are likewise a real pattern. My glasses and the moon taken together, however, are not a real pattern: the features included in such a pattern do not usefully predict the behaviour of this fandangled thing. So, real patterns are 'real' by virtue of being useful for the projection of some dynamic. However, dynamics are individuated in virtue of the things they affect, and the things in question are... other real patterns!   

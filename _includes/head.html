@@ -1,6 +1,5 @@
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <meta charset="utf-8">
-    <title>The Daily Dialectic</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
@@ -10,4 +9,13 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link href='http://fonts.googleapis.com/css?family=Pacifico|Lato:400,300,700,400italic,300italic,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- FB OG tags -->
+    <meta property="og:site_name" content="{{ site.title }}" ></meta>
+    <meta property="og:title" content="{{ page.title }}" ></meta>
+    <meta property="og:url" content="http://dave.kinkead.com.au {{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" ></meta>
+    <meta property="og:type" content="article" ></meta>
+    <meta property="og:description  " content="{{ page.excerpt | strip_html }}" ></meta>
+    <meta property="fb:app_id" content="709338635807902" ></meta>
+    <meta property="og:image" content="{{ page.image }}" ></meta>
 </head>
